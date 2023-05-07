@@ -1,0 +1,81 @@
+@media (max-width: 57.5em) {
+    main {
+    margin-bottom: 4em;
+    }
+
+    .logo {
+        width: 20%;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .encriptar {
+        width: 100%;
+    }
+
+    .text-area {
+        width: 80%;
+        height: 60%;
+        left: 10%;
+        top: 5%;
+    }
+
+    .adverterncia {
+        width: 80%;
+        left: 10%;
+        top: 67%;
+    }
+
+    .botones {
+        width: 80%;
+        left: 10%;
+        top: 70%;
+    }
+
+    .btn-encriptar,
+    .btn-desencriptar {
+        width: 48%;
+    }
+    .btn-encriptar {
+        margin-right: 0.5em;
+    }
+    
+    .encriptado {
+        width: 80%;
+        height: 17%;
+        left: 10%;
+        top: 85%;
+    }
+
+    .mensaje-encriptado {
+        width: 100%;
+        top: 5%;
+    }
+    .mensaje-encriptado h2 {
+        width: 80%;
+        font-size: 22px;
+    }
+    .mensaje-encriptado p {
+        width: 85%;
+    }
+
+    .encriptado img {
+        top: 0;
+        display: none;
+        visibility: hidden;
+    }
+}
+
+@media (max-width: 519px) {
+    .encriptado {
+        height: 22%;
+        top: 80%;
+    }
+
+    .mensaje-encriptado p {
+        font-size: 14px;
+    }
+}
